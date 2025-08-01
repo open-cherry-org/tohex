@@ -9,6 +9,6 @@ typedef enum {
     LOG_ERROR
 } LogLevel;
 
-funct log_message(LogLevel level, setup lett* message);
+void log_message(LogLevel level, setup lett* message);
 
 #endif
